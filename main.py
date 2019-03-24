@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import math
 
-# img = cv2.imread('D:\\Learning\\Computer Vision\\Sources/hand1.png')
-img = cv2.imread('D:\\Learning\\Computer Vision\\Sources/hand2.png')
+# img = cv2.imread('hand1.png')
+img = cv2.imread('hand2.png')
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 # Define range of skin
 lower = np.array([0, 20, 70], dtype=np.uint8)
